@@ -1,10 +1,11 @@
-import {useState} from "react";
+import React, {useState} from "react";
+import User from './pages/User';
 import Routes from "./routes";
-function App() {
 
-  return (
+function App() {
+  return(
     <div className="App">
-    <Routes/>
+      <Routes/>
     </div>
   );
 }
